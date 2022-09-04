@@ -1,0 +1,68 @@
+.burger {
+    height: 22px;
+    width: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.burger span {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    transition: all .4s ease;
+}
+
+.burger span:first-child {
+    top: 0;
+    left: 0;
+}
+
+.burger span:nth-child(2) {
+    top: 8px;
+    left: 0;
+}
+
+.burger span:nth-child(2).x-mark {
+    opacity: 0;
+}
+
+.burger span:last-child {
+    top: 16px;
+    left: 0;
+}
+
+.burger span:last-child.x-mark,
+.burger span:first-child.x-mark {
+    top: 12px;
+}
+.burger span:first-child.x-mark {
+    transform: rotate(405deg);
+}
+.burger span:last-child.x-mark {
+    transform: rotate(315deg);
+}
+
+@media (min-width: 768px) {
+    .burger {
+        height: 28px;
+        width: 60px;
+    }
+
+    .burger span {
+        height: 4px;
+    }
+
+    .burger span:nth-child(2) {
+        top: 12px;
+    }
+
+    .burger span:last-child {
+        top: 24px;
+    }
+
+    .burger span:last-child.x-mark,
+    .burger span:first-child.x-mark {
+        top: 12px;
+    }
+}
