@@ -24,9 +24,6 @@ input {
 }
 
 /*header start*/
-/*.header {*/
-/*    height: 15vh;*/
-/*}*/
 
 .nav-wrapper {
     box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.75);
@@ -168,6 +165,10 @@ input {
 }
 
 /*video section start*/
+.video-section {
+    margin-top: 5rem !important;
+}
+
 .video-section a, .video-section p, .video-section h1 {
     color: black;
 }
