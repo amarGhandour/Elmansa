@@ -1,0 +1,26 @@
+.login-section {
+    background-image: linear-gradient(to bottom, rgba(222, 221, 213, 0.26), rgb(255 216 0 /0.42));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.login-section .heading {
+    color: #daba63;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 1rem 0
+}
+
+.login-section .form-card {
+    width: 80%;
+    margin: 1rem 0 3rem 0;
+}
+
+@media (min-width: 768px) {
+    .login-section .form-card {
+        width: 50%;
+    }
+}
+
