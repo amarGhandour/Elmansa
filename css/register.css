@@ -9,13 +9,21 @@
 .login-section .heading {
     color: #daba63;
     font-weight: bold;
-    font-size: 3rem;
-    margin: 1rem 0
+    margin: 1rem 0;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .login-section .form-card {
     width: 80%;
     margin: 1rem 0 3rem 0;
+    background-color: #c1c165;
+}
+
+.login-section .form-card .btn {
+    background-color: #842029;
+    outline: none;
+    border-color: transparent;
 }
 
 @media (min-width: 768px) {
